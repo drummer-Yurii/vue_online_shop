@@ -1,6 +1,5 @@
 <template>
     <div class="v-main-wrapper">
-        <p>{{title}}</p>
         <v-catalog />
         <v-cart />
     </div>
@@ -18,7 +17,7 @@ export default {
     props: {},
     data() {
         return {
-            title: 'Main wrapper'
+
         }
     },
     computed: {},
@@ -31,10 +30,6 @@ export default {
 </script>
 <style>
     .v-main-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         max-width: 900px;
         margin: 0 auto;
     }    
