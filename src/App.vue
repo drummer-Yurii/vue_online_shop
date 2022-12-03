@@ -7,7 +7,7 @@
 <script>
 import vMainWrapper from './components/v-main-wrapper';
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     vMainWrapper
   }
